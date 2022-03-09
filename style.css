@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+.but{
+    margin-top: 200px;
+    margin-left: 650px;
+}
+.button{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 40px;
+    font-family: cambria;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 5px 5px 5px red;
+    box-shadow: 10px 10px 10px red;
+    animation-name: hello;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.button:hover{
+    transform: scale(1.5);
+    
+}
+
+@keyframes hello{
+    from{ border-radius: 0%;}
+    to{ border-radius: 50% ;background-color: tomato ; color:"white";}
+}
